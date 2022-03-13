@@ -1,0 +1,194 @@
+:root {
+    --hover: rgb(0, 162, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1, h2, h3, h4, p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 105px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p, li {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #222;
+    background: url(../img/dom-nauiki.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h1, .wrapper p {
+    width: 1300px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.wrapper h1 {
+    line-height: 125px;
+    margin-bottom: 50px;
+}
+
+.wrapper p {
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/* контейнер с описанием */
+.desc-short {
+    display: block;
+    width: 71%;
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    padding: 190px 0;
+}
+
+.desc-short p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.container-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* gap: 80px; */
+    background-color: #fff;
+
+}
+
+.grey {
+    background: #eee;
+}
+
+/* контейнер с изображением, названием и описанием под ним */
+.img-desc, .desc {
+    width: 40%;
+    margin: 100px 0;
+}
+
+.img-desc img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.img-desc p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Чисто текст с заголовком */
+.desc h2 {
+    margin-bottom: 48px;
+}
+
+.desc p, .desc ul {
+    margin-bottom: 40px;
+}
+
+.desc ul {
+    padding: 0 0 0 28px;
+    list-style: decimal;
+}
+
+.desc li {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.hr-line {
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 50%;
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgb(0, 0, 0, .3) 50%, rgba(9,9,121,0) 100%);
+}
+
+.block-sm {
+    margin: 100px 200px;
+    padding: 50px;
+    height: fit-content;
+}
+
+.block-sm .desc {
+    margin: 0;
+    width: fit-content;
+}
+
+.block-sm ul {
+    padding-left: 30px;
+}
+
+.block-sm a {
+    color: #000;
+    text-decoration: none;
+
+    transition: all .2s ease;
+}
+
+.block-sm a:hover {
+    color: var(--hover);
+}
+
+footer {
+    padding: 25px 0;
+    background: #222;
+    color: #fff;
+}
+
+footer .footer-data {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+
+    transition: all 0.2s ease-out;
+}
+
+footer a:hover {
+    color: var(--hover);
+}
