@@ -83,6 +83,7 @@ header {
     font-weight: 300;
     line-height: 40px;
     letter-spacing: 1px;
+    text-align: justify;
 }
 
 .container-img {
@@ -200,15 +201,19 @@ footer a:hover {
 
 @media screen and (max-width: 700px) {
     h1 {
-        font-size: 75px;
+        font-size: 65px;
     }
 
     .wrapper h1 {
-        line-height: 100px;
+        line-height: 95px;
+    }
+
+    .desc-short p {
+        letter-spacing: 0;
     }
 
     .img-desc, .desc {
-        width: 450px;
+        width: 400px;
         margin: 100px 0;
     }
 }
