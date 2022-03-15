@@ -145,8 +145,7 @@ header {
 .block-sm {
     margin: 100px auto;
     padding: 50px;
-    min-width: fit-content;
-    max-width: 1100px;
+    width: 80%;
 }
 
 .block-sm .desc {
@@ -223,6 +222,10 @@ footer a:hover {
         font-size: 45px;
     }
 
+    h2 {
+        font-size: 35px;
+    }
+
     .wrapper h1 {
         line-height: 65px;
     }
@@ -234,5 +237,10 @@ footer a:hover {
     .img-desc, .desc {
         width: 300px;
         margin: 100px 0;
+    }
+
+    .block-sm {
+        padding: 40px;
+        width: 69vw;
     }
 }
